@@ -1,8 +1,8 @@
-var modulo = require('./module/mod1');
-var pessoa = require('./module/mod2');
+var teste_mod1 = require('./module/mod1');
+var teste_mod2 = require('./module/mod2');
 
 
-pessoa.minhaIdade('26');
-pessoa.minhaProfissao('Desenvolvedor');
+teste_mod2.minhaIdade('26');
+teste_mod2.minhaProfissao('Desenvolvedor');
 
-modulo('Thiago Porto');
+teste_mod1('Thiago Porto');
